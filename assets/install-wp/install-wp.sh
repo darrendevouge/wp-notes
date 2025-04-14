@@ -120,6 +120,7 @@ wp rewrite structure '/%postname%/'
 # Delete default post and page
 wp post delete 1 --force  # deletes the "Hello world!" post
 wp post delete 2 --force  # deletes the Sample Page
+wp post delete 3 --force  # deletes the Default Privacy Page
 
 # Remove inactive themes
 wp theme delete --all 
